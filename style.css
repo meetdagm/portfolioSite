@@ -1,0 +1,170 @@
+ a{
+  text-decoration: none;
+ }
+ body{
+  background-color: #F2F2F2;
+ }
+#navigation{
+  height: 65px;
+}
+#home{
+  position: absolute;
+  top: 18px;
+  left:18px;
+}
+
+#portfolio{
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
+
+#logo{
+  text-align: center;
+}
+
+img{
+  display: inline-block;
+  /*width: 40%;*/
+}
+
+#about{
+  text-align: center;
+}
+
+#about{
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+#description{
+  font-family: "Space Mono";
+  color: black;
+}
+
+#purpose{
+  font-family: "Space Mono";
+  color: black;
+  width: 75%;
+  display: inline-block;
+}
+
+ .Button{
+  font-family: "Space Mono";
+  color: black;
+ }
+
+ .Button:hover{
+  color:#B5D4E1;
+ }
+
+ #contactSection{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+   margin-top: 75px;
+ }
+
+ #contactButton{
+  font-family: "Avenir Heavy";
+  font-weight: 100;
+  color: #F2F2F2;
+  background-color: #BA207B;
+  border-radius: 7px;
+  padding: 10px 80px;
+ }
+
+ @media only screen and (min-width: 768px) {
+  #projectContainer{
+    width: 940px;
+    height:400px;
+    margin: 0 auto;
+    display: flex;
+  }
+}
+
+ .buttonOverImage{
+  position: relative;
+  width: 300px;
+  height:300px;
+  background-size: 90%;
+  background-position: center;
+  transition: 0.5s;
+  background-repeat: no-repeat; 
+  margin: 0 auto;
+}
+
+.buttonOverImage:hover{
+  background-size: 100%;
+ 
+}
+
+.buttonOverImage:after{
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  word-wrap: break-word;
+  overflow: hidden;
+  color: #fff;
+  font-family: "Avenir Heavy";
+  padding: 10px;
+  opacity: 0;
+  content: attr(show-description);
+  transition: 0.5s;
+}
+
+.buttonOverImage:hover:after{
+  opacity: 1;
+  top: 0;
+  padding-top: 30px;
+  padding-left: 15px;
+}
+
+#product{
+  width: 300px
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#viewProject{
+  position: relative;
+  margin: 30px;
+  background-color: black;
+  font-family: "Avenir Heavy";
+  font-weight: 100;
+  color: #F2F2F2;
+  background-color: #2067BA;
+  border-radius: 7px;
+  padding: 10px 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
