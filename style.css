@@ -125,14 +125,14 @@ img{
   padding-left: 15px;
 }
 
-#product{
+.product{
   width: 300px
   height: 400px;
   margin: 0 auto;
   text-align: center;
 }
 
-#viewProject{
+.viewProject{
   position: relative;
   margin: 30px;
   background-color: black;
